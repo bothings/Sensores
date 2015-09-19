@@ -56,7 +56,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
 
         //Inicializaçao e registro de Sensores
         initAndRegisterSensors();
-        synchronizedDataToServer();
+        //synchronizedDataToServer();
     }
 
     private void initAndRegisterSensors(){
@@ -69,7 +69,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
         humiditySensor = sm.getDefaultSensor(Sensor.TYPE_RELATIVE_HUMIDITY);
         //A obtençao de dados do GPS e Ruido ocorrem de forma diferente, pois fazem parte de outra API.
         //Os metodos abaixo obtem os dados de GPS e ruido respectivamente.
-        callConnectionGPS();
+        //callConnectionGPS();
         startNoiseRecorder();
 
         //Registro de eventos ocorridos nos sensores
@@ -83,9 +83,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
             if (temperatureSensor == null){
                 new Weather(this).execute();
             }
-
         }
-
     }
 
     //Verifica se existe conexao com a internet

@@ -31,28 +31,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Compartilhar Localização"
-        android:id="@+id/textView7"
-        android:layout_below="@+id/cBLocation"
-        android:layout_toRightOf="@+id/cBLocation"
-        android:layout_toEndOf="@+id/cBLocation" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkBox"
-        android:checked="false"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/textView7"
-        android:layout_toRightOf="@+id/cBLocation" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Permitir envio de Dados"
         android:id="@+id/textView8"
-        android:layout_alignTop="@+id/textView7"
+        android:layout_alignTop="@+id/textView6"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="43dp" />
@@ -66,11 +47,5 @@
         android:layout_alignLeft="@+id/cBLocation"
         android:layout_alignStart="@+id/cBLocation" />
 
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Switch"
-        android:id="@+id/switch1"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
