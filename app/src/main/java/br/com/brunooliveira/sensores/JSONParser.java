@@ -21,6 +21,8 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
+
+//Classe Auxiliar para conversão de objetos Json e conexão com os scripts PHP. Inplementação de internet...
 public class JSONParser {
 
 	static InputStream is = null;
@@ -90,9 +92,7 @@ public class JSONParser {
 		// try parse the string to a JSON object
 		try {
 			jObj = new JSONObject(json);
-		} catch (JSONException e) {
-			Log.e("JSON Parser", "Error parsing data " + e.toString());
-		}
+		} catch (JSONException e) {}
 
 		// return JSON String
 		return jObj;

@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.CheckBox;
 
-
+//Classe criada para representar o meu Settings. Ainda em implementação.
 public class Settings extends ActionBarActivity {
     private CheckBox cbLocation;
     private CheckBox cbData;

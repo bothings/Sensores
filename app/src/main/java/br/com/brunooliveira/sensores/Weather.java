@@ -15,11 +15,13 @@ import java.text.DecimalFormat;
 
 /**
  * Created by bo on 04/09/15.
+ * Classe que realiza a conexão e obtenção de dados do servidor de tempo Open Weather Map caso o aparelho não possua sensores de
+ * temperatura e umidade
  */
 public class Weather extends AsyncTask<Void, Void, String[]> {
 
     private WeatherListener listener;
-    private static final String URLLocal = "http://api.openweathermap.org/data/2.5/weather?q=Salvador,br";
+    private static final String URLLocal = "http://api.openweathermap.org/data/2.5/weather?q=Salvador,br&appid=bd82977b86bf27fb59a04b61b657fb6f";
 
     public Weather(WeatherListener listener){
         this.listener=listener;

@@ -115,4 +115,5 @@
         android:layout_alignLeft="@+id/GPSSensorTx"
         android:layout_alignStart="@+id/GPSSensorTx" />
 
+
 </RelativeLayout>

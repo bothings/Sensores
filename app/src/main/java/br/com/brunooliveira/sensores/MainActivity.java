@@ -13,6 +13,8 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,9 +27,11 @@ import java.text.DecimalFormat;
 import java.util.Timer;
 import java.util.TimerTask;
 
-
+//Activity que representa a tela principal do aplicativo. Os trechos de códigos relativos ao envio dos dados dos sensores ao
+//servidor foram desabilitadas, pois o servidor ainda não está disponível.
+//Todas as informações e métodos para obtenção de dados de sensores estão nesta classe.
 public class MainActivity extends ActionBarActivity implements SensorEventListener, GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener, Weather.WeatherListener, ISensoresDAO{
+        GoogleApiClient.OnConnectionFailedListener, Weather.WeatherListener{ //ISensoresDAO - Retirado pois as configurações de Servidor estão desativas
 
     //Declaraçao de atributos da Activity
     private Sensor lightSensor;
@@ -40,7 +44,8 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
     private TextView GPS;
     private TextView noise;
     private GoogleApiClient mGoogleApiClient;
-    private static String url_create_product = "http://192.168.0.19/Sensors_Data.php";
+    //private static String url_insert_row = "http://192.168.0.102/insert.php";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,20 +61,23 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
 
         //Inicializaçao e registro de Sensores
         initAndRegisterSensors();
+
+        //Desabilitei a rotina de envio de dados para o servidor porque o serviço ainda não está disponívelna web.
         //synchronizedDataToServer();
     }
 
-    private void initAndRegisterSensors(){
+    private void initAndRegisterSensors() {
         //Obtem serviço de Sensores
         sm = (SensorManager) getSystemService(SENSOR_SERVICE);
 
-        //Os Sensores de luminosidade, temperatura e humidade estao disponiveis via API. Neste momento ocorre a obtençao de instancia de serviço.
+        //Os Sensores de luminosidade, temperatura e umidade estao disponiveis via API.
+        //Neste momento ocorre a obtençao de instancia de serviço.
         lightSensor = sm.getDefaultSensor(Sensor.TYPE_LIGHT);
         temperatureSensor = sm.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE);
         humiditySensor = sm.getDefaultSensor(Sensor.TYPE_RELATIVE_HUMIDITY);
         //A obtençao de dados do GPS e Ruido ocorrem de forma diferente, pois fazem parte de outra API.
         //Os metodos abaixo obtem os dados de GPS e ruido respectivamente.
-        //callConnectionGPS();
+        callConnectionGPS();
         startNoiseRecorder();
 
         //Registro de eventos ocorridos nos sensores
@@ -78,11 +86,12 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
         sm.registerListener(this, humiditySensor, SensorManager.SENSOR_DELAY_NORMAL);
 
         //Verifica se existe sensor de Temperatura. Se nao houver, o valor retornado sera nulo.
-        //A Classe ConsultaSituaçao obtem dados de temperatura e humidade de um servidor de condições climáticas.
-        if(hasConnection()){
-            if (temperatureSensor == null){
+        //A Classe ConsultaSituaçao obtem dados de temperatura e umidade de um servidor de condições climáticas.
+        if (hasConnection()) {
+            if (temperatureSensor == null) {
                 new Weather(this).execute();
             }
+
         }
     }
 
@@ -106,7 +115,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
         mGoogleApiClient.connect();
     }
 
-    //obtem os dados de ruido apartir do mic. A Classe RecorderTask e uma inner class auxiliar para obtençao do nivel de ruido.
+    //obtem os dados de ruido através do mic. A Classe RecorderTask é uma inner class auxiliar para obtençao do nivel de ruido.
     public void startNoiseRecorder(){
 
         MediaRecorder recorder = new MediaRecorder();
@@ -125,16 +134,21 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
     }
 
     //Instancia do objeto que envia os dados para o servidor.
-    public void sendDataToServer(){
-        SensoresDAO sensores = new SensoresDAO(this, this);
-        sensores.execute(light.getText() + "", temperature.getText() + "", humidity.getText() + "",
-                GPS.getText() + "", noise.getText() + "", url_create_product);
+    //Desabilitado pois o servidor que receberá os dados ainda não está disponível
+    /*public void sendDataToServer(){
+        if(hasConnection()){
+            SensoresDAO sensores = new SensoresDAO(this, this);
+            sensores.execute(light.getText() + "", temperature.getText() + "", humidity.getText() + "",
+                    GPS.getText() + "", noise.getText() + "", url_insert_row);
+        }
+        else Toast.makeText(this, "Verifique sua conexão com a Internet e reinicie o aplicativo.", Toast.LENGTH_LONG).show();
     }
 
     //Metodo que sincroniza os dados com servidor a cada 5 minutos.
-    public void synchronizedDataToServer(){
+    //Desabilitado pois o servidor que receberá os dados ainda não está disponível
+    /*public void synchronizedDataToServer(){
         if(hasConnection()) {
-            final int TIMEOUT = 300000;
+            final int TIMEOUT = 9000;//300000;
             new Thread() {
                 public void run() {
                     while (true) {
@@ -148,18 +162,21 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
                                     Toast.makeText(getBaseContext(), "Ocorreu um erro ao enviar dados.", Toast.LENGTH_LONG).show();}});
                         }}}}.start();
         }else { Toast.makeText(this, "Verifique sua conexão com a Internet e reinicie o aplicativo.", Toast.LENGTH_LONG).show();}
-    }
+    }*/
 
+    //Metodo de retorno após obtenção de dados do servidor de tempo
     @Override
     public void onResult(String[] result) {
         temperature.setText(result[0]);
         humidity.setText(result[1]);
     }
 
-    @Override
+    //Método de retorno após envio de dados ao servidor
+    //Desabilitado pois o servidor que receberá os dados ainda não está disponível
+   /* @Override
     public void afterSend(String arg) {
         Toast.makeText(this, "Dados enviados com sucesso!", Toast.LENGTH_LONG).show();
-    }
+    }*/
 
     //Inner class auxiliar para obtenção do ruido.
     private class RecorderTask extends TimerTask {
@@ -183,6 +200,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
         }
     }
 
+    //Método auxiliar de conexão para obter dados do GPS
     @Override
     public void onConnected(Bundle bundle) {
          Location l = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
@@ -192,7 +210,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
         }
     }
 
-    //Método que identifica a mudança nos sensores de luminosidade, temperatura e umidad e realiza a atualização.
+    //Método que identifica a mudança nos sensores de luminosidade, temperatura e umidade e realiza a atualização.
     @Override
     public void onSensorChanged(SensorEvent event) {
         int type = event.sensor.getType();
@@ -207,6 +225,8 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
                 break;
         }
     }
+
+
 
     //Métodos obrigatórios no uso de algumas interfaces. Estão em modo default.
 
@@ -233,6 +253,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        //Menu Settings
         if (id == R.id.action_settings) {
             Intent intent = new Intent(this, Settings.class);
             startActivity(intent);

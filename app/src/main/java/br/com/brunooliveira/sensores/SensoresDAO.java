@@ -2,6 +2,7 @@ package br.com.brunooliveira.sensores;
 
 import android.content.Context;
 import android.os.AsyncTask;
+import android.util.Log;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -13,6 +14,7 @@ import java.util.List;
 
 /**
  * Created by bo on 11/09/15.
+ * Classe responsável pelo envio dos dados ao servidor.
  */
 public class SensoresDAO extends AsyncTask<String, String, String> {
     private Context context;
@@ -49,20 +51,7 @@ public class SensoresDAO extends AsyncTask<String, String, String> {
         JSONObject json = jsonParser.makeHttpRequest(args[5],
                 "POST", params);
 
-        try {
-            int success = json.getInt(TAG_SUCCESS);
-
-            if (success == 1) {
-                // successfully
-
-                // closing this screen
-                //finish();
-            } else {
-                // failed
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        
         return null;
     }
 
