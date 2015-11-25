@@ -2,186 +2,186 @@
 <items version="2" >
 
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-0ae64cbf0b74ea4538d6710f92492aec1e0940bc.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-f855f204a90589def7b59f1300b8d0a649e9628c.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-41ba1f942ca5dadce20707d312e18a1d856b59ce.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-f1240126d615f757ed41a46343690462e53298aa.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-f44a8f787d4679b4f0cbbcab78439a55a15bfaf0.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-aa572a03b35a04484eea6291521a8df1946b4817.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-04240b36b42dbaefe7bc2bf4ac5a3761d2b9d30c.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-5cc0d4c0356ccee13dffce0fdef7770d5556c549.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-97efcc163b0fd75e44ac28b25f82ece20c1457b6.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-aa1df4467a275334cb48bd61bee835725a4cabd1.jar" />
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-9027a33003d57891d631e22584d592df222f2278.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-6e633b649be9ff50cd0602ec8a85aa8594b9a126.jar" />
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-0cc47afa7ea810facaf65c10f854b2c98ea1faad.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-6fe55b7caff1432a0033701c2f1f83c8dcc2f782.jar" />
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-f93d25dc9e1227b8c24a55a366e60ba35c8796d3.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-fc03c8dd1e2214e14fb215ef42be207aeb837401.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-24eac5941785ef79bd9bda03567780aafe0eeabc.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-37bc8471a172f8a43095dd6ff58ce2af65f323c9.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-2bb0b202ef0e9870ecb77876d0db75a2bef3a828.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-01318e4b46905a5cb6b59c34dfa6493a0d8f18dc.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-22b85f09a708ed084952c4ea9d89081de3ab577c.jar" />
-    </item>
-    <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-ada222bb3b83d9ef26f39b005050953b2bb1c907.jar" />
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-0db2ab652373ccdc55dd322906a94fc811966e24.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-42ca4110223575245e3c363a4dbc941e4a58cec0.jar" />
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-61b2989b30e1aa34b218af0bf1f41ff4c738865c.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-fd9e327312bfe9c17260ab666d78c4b5adee4fd0.jar" />
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-c741f836b779ae6fe9642902ff4904478b35b198.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-67e3c2b9600a90a3c1c52e841f003ee0892e78d4.jar" />
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-25476a2a69ea3cfd4960c834c7856220de1bc041.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-ee859e87d66c3372d236cb0bfce9c684a8a55517.jar" />
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-3c5b6e43d8f289abadded12eb4e4e18a8f7e1226.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-b818f2adf694d9e6b2fbaf59bd278ee396b8fc58.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-13963db1af19f4360eb8f946f19431d049696e93.jar" />
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-f96f0ae1bf00cf2511d4eae347ef7aed5bb16b3d.jar" />
     </item>
     <item
-        jar="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-960795f6631635242f0532a0fbb621b83e3a3f42.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-cf4127d1187c241e1b5c49938e99bcca053b8e99.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-5d6234c5e1aed93c26a7eca999e8476b10ddbcc2.jar" />
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-9ba0d357ea68e4cdeaa614c4f83b2bc3b922e094.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-ef077099297a30f3b0ac241a8b0797d92e2896e9.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-b1c8f2ff98bac2b6307d15fca0a86e31a254c2e0.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-fffcb69c25a3e95e408cf8032acb336dee9f3577.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-930aa036e1dd053c7794c984e72739ca341a6ac7.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-bdf83f6369038d0c3d0178f4ac7d5bde039e5563.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-04e5e9515b5fc21ae420d6c2e4553fcf300216b5.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-2f94993474e36b3b4a38062f2ded653517e650b3.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-30eee076ff0704ef7ba1dab637a39dcb2426a41a.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-eb14e6c807885cd91b5dccbd324de0a14c93f16a.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-87825b3b06410636d6753ed1ad78be13c5f5ca34.jar" />
     </item>
     <item
         jar="/home/bruno/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/bruno/Área de Trabalho/Sensores/Sensores/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-42c053a8e413bef2b459c9ac20d35cdb17d5fbf3.jar" />
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-42c053a8e413bef2b459c9ac20d35cdb17d5fbf3.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-14770681c677831a6942f3acedcbacc7e0a0cc62.jar" />
+    </item>
+    <item
+        jar="/home/bruno/backSensores/Sensores/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/bruno/backSensores/Sensores/app/build/intermediates/pre-dexed/debug/classes-912044118562fb13cd256c655876aa7f7a76251f.jar" />
     </item>
 
 </items>

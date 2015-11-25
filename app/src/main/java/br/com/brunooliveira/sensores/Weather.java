@@ -51,6 +51,7 @@ public class Weather extends AsyncTask<Void, Void, String[]> {
         String [] resultTemp = new String[2];
         resultTemp[0] = df.format(obj.getDouble("temp")-273)+"ºC"+" (by openweathermap)";
         resultTemp[1]=  obj.getInt("humidity")+"%"+" (by openweathermap)";
+
         return resultTemp;
     }
 

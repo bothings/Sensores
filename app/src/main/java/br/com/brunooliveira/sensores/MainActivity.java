@@ -87,12 +87,12 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
 
         //Verifica se existe sensor de Temperatura. Se nao houver, o valor retornado sera nulo.
         //A Classe ConsultaSituaçao obtem dados de temperatura e umidade de um servidor de condições climáticas.
-        if (hasConnection()) {
-            if (temperatureSensor == null) {
-                new Weather(this).execute();
-            }
+        //if (hasConnection()) {
+        //    if (temperatureSensor == null) {
+        //      new Weather(this).execute();
+        //  }
 
-        }
+        //}
     }
 
     //Verifica se existe conexao com a internet
