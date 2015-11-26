@@ -1,6 +1,7 @@
 package br.com.brunooliveira.sensores;
 
 import android.os.AsyncTask;
+import android.util.Log;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -21,7 +22,7 @@ import java.text.DecimalFormat;
 public class Weather extends AsyncTask<Void, Void, String[]> {
 
     private WeatherListener listener;
-    private static final String URLLocal = "http://api.openweathermap.org/data/2.5/weather?q=Salvador,br&appid=bd82977b86bf27fb59a04b61b657fb6f";
+    private static final String URLLocal = "http://api.openweathermap.org/data/2.5/weather?q=Salvador,br&appid=779c8195e6d62b92cda391166bef6f28";
 
     public Weather(WeatherListener listener){
         this.listener=listener;
@@ -51,7 +52,7 @@ public class Weather extends AsyncTask<Void, Void, String[]> {
         String [] resultTemp = new String[2];
         resultTemp[0] = df.format(obj.getDouble("temp")-273)+"ºC"+" (by openweathermap)";
         resultTemp[1]=  obj.getInt("humidity")+"%"+" (by openweathermap)";
-
+        Log.i("news", "pos0: " + resultTemp[0] + " pos1: " + resultTemp[1]);
         return resultTemp;
     }
 
